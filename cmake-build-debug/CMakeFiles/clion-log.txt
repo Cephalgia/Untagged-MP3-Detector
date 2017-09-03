@@ -1,0 +1,27 @@
+/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/cephalgia/CLionProjects/UntaggedMP3Detector
+CMake Warning at /home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/FindBoost.cmake:765 (message):
+  Imported targets not available for Boost version 106500
+Call Stack (most recent call first):
+  /home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/FindBoost.cmake:869 (_Boost_COMPONENT_DEPENDENCIES)
+  /home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/FindBoost.cmake:1472 (_Boost_MISSING_DEPENDENCIES)
+  CMakeLists.txt:10 (find_package)
+
+
+CMake Warning at /home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/FindBoost.cmake:765 (message):
+  Imported targets not available for Boost version 106500
+Call Stack (most recent call first):
+  /home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/FindBoost.cmake:869 (_Boost_COMPONENT_DEPENDENCIES)
+  /home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/FindBoost.cmake:1472 (_Boost_MISSING_DEPENDENCIES)
+  CMakeLists.txt:10 (find_package)
+
+
+-- Boost version: 1.65.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+-- Boost_INCLUDE_DIRS: /home/cephalgia/Tools/boost_1_65_0
+-- Boost_LIBRARIES: /home/cephalgia/Tools/boost_1_65_0/stage/lib/libboost_system.so;/home/cephalgia/Tools/boost_1_65_0/stage/lib/libboost_filesystem.so
+-- Boost_VERSION: 106500
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug

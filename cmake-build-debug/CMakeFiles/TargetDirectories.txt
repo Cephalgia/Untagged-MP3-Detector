@@ -1,0 +1,3 @@
+/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles/UntaggedMP3Detector.dir
