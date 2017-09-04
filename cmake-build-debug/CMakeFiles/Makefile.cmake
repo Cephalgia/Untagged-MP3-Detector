@@ -18,6 +18,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/CMakeFindCodeBlocks.cmake"
   "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/CMakeGenericSystem.cmake"
   "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/CMakeLanguageInformation.cmake"
+  "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/CMakeParseArguments.cmake"
   "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/CMakeSystemSpecificInformation.cmake"
   "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/CMakeSystemSpecificInitialize.cmake"
   "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/Compiler/GNU-C.cmake"
@@ -30,6 +31,18 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/Platform/Linux.cmake"
   "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/Platform/UnixPaths.cmake"
   "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/ProcessorCount.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake"
   )
 
 # The corresponding makefile is:

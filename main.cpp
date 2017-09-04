@@ -2,6 +2,11 @@
 #include <vector>
 #include <boost/filesystem.hpp>
 
+#include <QApplication>
+#include <QPushButton>
+#include <QTableWidget>
+#include "MainWindow.h"
+
 #define TEXT_FIELD_LENGTH 30
 #define YEAR_FIELD_LENGTH 4
 #define MAX_COMPLETENESS 6
@@ -31,27 +36,33 @@ void write_to_buf(char* buf, int pos, std::string text, int field_length);
 char* form_tag(tag new_tag);
 std::string tag_string(char* buf);
 
-int main()
+int main(int argc, char **argv)
 {
 //    std::string file_path = "/home/cephalgia/mp3test/test";
 //    boost::filesystem::path p(file_path);
 //    std::vector<std::string> res = get_mp3s(p);
+//    std::vector<tag> invalid_files = filter_empty_tags(res);
 //    for(int i = 0; i < res.size(); i++)
 //    {
-//        std::cout << res[i] << std::endl;
+//        std::cout << invalid_files[i].path << std::endl;
 //    }
 
-    tag new_tag;
-    new_tag.title = "asdf";
-    new_tag.artist = "Jkl";
-    new_tag.album = "Kvbn";
-    new_tag.year = "1997";
-    new_tag.track_num = 2;
-    new_tag.genre = 16;
-    new_tag.path = "/home/cephalgia/mp3test/test/101.mp3";
-    new_tag.completeness = -1;
-    write_tag(new_tag);
-    return 0;
+//    tag new_tag;
+//    new_tag.title = "Hello";
+//    new_tag.artist = "Jkl";
+//    new_tag.album = "Kvbn";
+//    new_tag.year = "2227";
+//    new_tag.track_num = 2;
+//    new_tag.genre = 16;
+//    new_tag.path = "/home/cephalgia/mp3test/test/101.mp3";
+//    new_tag.completeness = 6;
+//    write_tag(new_tag);
+    QApplication app (argc, argv);
+
+    MainWindow window;
+    window.show();
+
+    return app.exec();
 }
 
 std::vector<std::string> get_mp3s(boost::filesystem::path p)
@@ -174,13 +185,15 @@ void write_tag(tag new_tag)
 {
     if(new_tag.completeness != -1)
     {
-
+        std::fstream file (new_tag.path, std::ios::out | std::ios::binary | std::ios_base::in);
+        char* arr = form_tag(new_tag);
+        file.seekp(boost::filesystem::file_size(new_tag.path) - 128, std::ios_base::beg);
+        file.write(arr, 128);
+        delete[] arr;
     } else
     {
-        std::ofstream file (new_tag.path, std::ios::out | std::ios::binary);
-        file.seekp(0, std::ios_base::end);
+        std::ofstream file (new_tag.path, std::ios::out | std::ios::binary | std::ios::app);
         char* arr = form_tag(new_tag);
-        std::cout << "final" << tag_string(arr) << std::endl;
         file.write(arr, 128);
         delete[] arr;
     }
@@ -189,15 +202,12 @@ void write_tag(tag new_tag)
 
 char* form_tag(tag new_tag)
 {
-    auto raw_tag = new char(128);
+    auto raw_tag = new char[128];
     raw_tag[0] = 'T';
     raw_tag[1] = 'A';
     raw_tag[2] = 'G';
-    std::cout << "1" << tag_string(raw_tag) << std::endl;
     int pos = 3;
     write_to_buf(raw_tag, pos, new_tag.title, TEXT_FIELD_LENGTH);
-    std::cout << "2" << tag_string(raw_tag) << std::endl;
-    std::cout << tag_string(raw_tag) << std::endl;
     pos += TEXT_FIELD_LENGTH;
     write_to_buf(raw_tag, pos, new_tag.artist, TEXT_FIELD_LENGTH);
     pos += TEXT_FIELD_LENGTH;
@@ -206,14 +216,12 @@ char* form_tag(tag new_tag)
     write_to_buf(raw_tag, pos, new_tag.year, YEAR_FIELD_LENGTH);
     pos += YEAR_FIELD_LENGTH;
     write_to_buf(raw_tag, pos, new_tag.comment, TEXT_FIELD_LENGTH-2);
-
     pos += TEXT_FIELD_LENGTH-2;
     raw_tag[pos] = 0;
     pos++;
     raw_tag[pos] = new_tag.track_num;
     pos++;
     raw_tag[pos] = new_tag.genre;
-    std::cout << "3" << tag_string(raw_tag) << std::endl;
     return raw_tag;
 }
 

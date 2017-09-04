@@ -3,7 +3,7 @@ project(UntaggedMP3Detector)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp MainWindow.h MainWindow.cpp)
 
 set(BOOST_ROOT /home/cephalgia/Tools/boost_1_65_0)
 
@@ -26,3 +26,9 @@ if(Boost_FOUND)
     target_link_libraries(UntaggedMP3Detector ${Boost_LIBRARIES})
 
 endif()
+
+find_package( Qt5Core REQUIRED )
+find_package( Qt5Widgets REQUIRED )
+find_package( Qt5Gui REQUIRED )
+
+qt5_use_modules( UntaggedMP3Detector Core Widgets Gui )

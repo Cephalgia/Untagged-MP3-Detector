@@ -123,6 +123,33 @@ UntaggedMP3Detector/fast:
 	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/build
 .PHONY : UntaggedMP3Detector/fast
 
+MainWindow.o: MainWindow.cpp.o
+
+.PHONY : MainWindow.o
+
+# target to build an object file
+MainWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/MainWindow.cpp.o
+.PHONY : MainWindow.cpp.o
+
+MainWindow.i: MainWindow.cpp.i
+
+.PHONY : MainWindow.i
+
+# target to preprocess a source file
+MainWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/MainWindow.cpp.i
+.PHONY : MainWindow.cpp.i
+
+MainWindow.s: MainWindow.cpp.s
+
+.PHONY : MainWindow.s
+
+# target to generate assembly for a file
+MainWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/MainWindow.cpp.s
+.PHONY : MainWindow.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... UntaggedMP3Detector"
+	@echo "... MainWindow.o"
+	@echo "... MainWindow.i"
+	@echo "... MainWindow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

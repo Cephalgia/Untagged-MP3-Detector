@@ -4,13 +4,26 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/cephalgia/CLionProjects/UntaggedMP3Detector/MainWindow.cpp" "/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles/UntaggedMP3Detector.dir/MainWindow.cpp.o"
   "/home/cephalgia/CLionProjects/UntaggedMP3Detector/main.cpp" "/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles/UntaggedMP3Detector.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "QT_CORE_LIB"
+  "QT_GUI_LIB"
+  "QT_WIDGETS_LIB"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/cephalgia/Tools/boost_1_65_0"
+  "/usr/include/x86_64-linux-gnu/qt5"
+  "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"
+  "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   )
 
 # Targets to which this target links.
