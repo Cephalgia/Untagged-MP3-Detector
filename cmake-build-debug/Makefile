@@ -123,6 +123,19 @@ UntaggedMP3Detector/fast:
 	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/build
 .PHONY : UntaggedMP3Detector/fast
 
+#=============================================================================
+# Target rules for targets named UntaggedMP3Detector_autogen
+
+# Build rule for target.
+UntaggedMP3Detector_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 UntaggedMP3Detector_autogen
+.PHONY : UntaggedMP3Detector_autogen
+
+# fast build rule for target.
+UntaggedMP3Detector_autogen/fast:
+	$(MAKE) -f CMakeFiles/UntaggedMP3Detector_autogen.dir/build.make CMakeFiles/UntaggedMP3Detector_autogen.dir/build
+.PHONY : UntaggedMP3Detector_autogen/fast
+
 MainWindow.o: MainWindow.cpp.o
 
 .PHONY : MainWindow.o
@@ -149,6 +162,33 @@ MainWindow.s: MainWindow.cpp.s
 MainWindow.cpp.s:
 	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/MainWindow.cpp.s
 .PHONY : MainWindow.cpp.s
+
+UntaggedMP3Detector_autogen/moc_compilation.o: UntaggedMP3Detector_autogen/moc_compilation.cpp.o
+
+.PHONY : UntaggedMP3Detector_autogen/moc_compilation.o
+
+# target to build an object file
+UntaggedMP3Detector_autogen/moc_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.o
+.PHONY : UntaggedMP3Detector_autogen/moc_compilation.cpp.o
+
+UntaggedMP3Detector_autogen/moc_compilation.i: UntaggedMP3Detector_autogen/moc_compilation.cpp.i
+
+.PHONY : UntaggedMP3Detector_autogen/moc_compilation.i
+
+# target to preprocess a source file
+UntaggedMP3Detector_autogen/moc_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.i
+.PHONY : UntaggedMP3Detector_autogen/moc_compilation.cpp.i
+
+UntaggedMP3Detector_autogen/moc_compilation.s: UntaggedMP3Detector_autogen/moc_compilation.cpp.s
+
+.PHONY : UntaggedMP3Detector_autogen/moc_compilation.s
+
+# target to generate assembly for a file
+UntaggedMP3Detector_autogen/moc_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.s
+.PHONY : UntaggedMP3Detector_autogen/moc_compilation.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +226,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... UntaggedMP3Detector"
+	@echo "... UntaggedMP3Detector_autogen"
 	@echo "... MainWindow.o"
 	@echo "... MainWindow.i"
 	@echo "... MainWindow.s"
+	@echo "... UntaggedMP3Detector_autogen/moc_compilation.o"
+	@echo "... UntaggedMP3Detector_autogen/moc_compilation.i"
+	@echo "... UntaggedMP3Detector_autogen/moc_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

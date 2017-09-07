@@ -4,7 +4,7 @@ CMake Warning at /home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/
 Call Stack (most recent call first):
   /home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/FindBoost.cmake:869 (_Boost_COMPONENT_DEPENDENCIES)
   /home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/FindBoost.cmake:1472 (_Boost_MISSING_DEPENDENCIES)
-  CMakeLists.txt:10 (find_package)
+  CMakeLists.txt:11 (find_package)
 
 
 CMake Warning at /home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/FindBoost.cmake:765 (message):
@@ -12,7 +12,7 @@ CMake Warning at /home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/
 Call Stack (most recent call first):
   /home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/FindBoost.cmake:869 (_Boost_COMPONENT_DEPENDENCIES)
   /home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/FindBoost.cmake:1472 (_Boost_MISSING_DEPENDENCIES)
-  CMakeLists.txt:10 (find_package)
+  CMakeLists.txt:11 (find_package)
 
 
 -- Boost version: 1.65.0

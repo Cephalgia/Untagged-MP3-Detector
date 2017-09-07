@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.8.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.8.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.8.2/CMakeSystem.cmake"
+  "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/AutogenInfo.cmake.in"
   "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/CMakeCInformation.cmake"
   "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/CMakeCXXInformation.cmake"
   "/home/cephalgia/Tools/clion-2017.2.1/bin/cmake/share/cmake-3.8/Modules/CMakeCommonLanguageInclude.cmake"
@@ -53,10 +54,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/UntaggedMP3Detector_autogen.dir/AutogenInfo.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/UntaggedMP3Detector.dir/DependInfo.cmake"
+  "CMakeFiles/UntaggedMP3Detector_autogen.dir/DependInfo.cmake"
   )

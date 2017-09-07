@@ -10,17 +10,28 @@
 #include <QMainWindow>
 #include <QPushButton>
 #include <QTableWidget>
+#include <QFileDialog>
 
 class MainWindow : public QMainWindow
 {
+
+Q_OBJECT
+
 public:
     MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+    void btnOpen_clicked();
+
 private:
     QPushButton *m_button;
     QTableWidget *file_list;
-    QFrame *list_frame;
+    QFileDialog *dialog;
+    QString directoryName;
 
     void setup_list_table();
+    void setup_path_button();
+    void setup_directory_dialog();
+
 };

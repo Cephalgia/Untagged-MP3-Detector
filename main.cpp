@@ -3,8 +3,6 @@
 #include <boost/filesystem.hpp>
 
 #include <QApplication>
-#include <QPushButton>
-#include <QTableWidget>
 #include "MainWindow.h"
 
 #define TEXT_FIELD_LENGTH 30

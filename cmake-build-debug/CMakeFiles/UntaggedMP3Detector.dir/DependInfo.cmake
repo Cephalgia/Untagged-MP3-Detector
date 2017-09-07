@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cephalgia/CLionProjects/UntaggedMP3Detector/MainWindow.cpp" "/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles/UntaggedMP3Detector.dir/MainWindow.cpp.o"
+  "/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/UntaggedMP3Detector_autogen/moc_compilation.cpp" "/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.o"
   "/home/cephalgia/CLionProjects/UntaggedMP3Detector/main.cpp" "/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles/UntaggedMP3Detector.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -18,6 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "UntaggedMP3Detector_autogen/include"
   "/home/cephalgia/Tools/boost_1_65_0"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"

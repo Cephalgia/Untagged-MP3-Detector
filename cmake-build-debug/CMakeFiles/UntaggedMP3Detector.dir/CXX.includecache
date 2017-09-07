@@ -11,6 +11,8 @@ MainWindow.h
 /home/cephalgia/CLionProjects/UntaggedMP3Detector/MainWindow.h
 QHeaderView
 -
+iostream
+-
 
 /home/cephalgia/CLionProjects/UntaggedMP3Detector/MainWindow.h
 QMainWindow
@@ -19,6 +21,20 @@ QPushButton
 -
 QTableWidget
 -
+QFileDialog
+-
+
+/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/UntaggedMP3Detector_autogen/EWIEGA46WW/moc_MainWindow.cpp
+../../../MainWindow.h
+/home/cephalgia/CLionProjects/UntaggedMP3Detector/MainWindow.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/UntaggedMP3Detector_autogen/moc_compilation.cpp
+EWIEGA46WW/moc_MainWindow.cpp
+/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/UntaggedMP3Detector_autogen/EWIEGA46WW/moc_MainWindow.cpp
 
 /home/cephalgia/CLionProjects/UntaggedMP3Detector/main.cpp
 iostream
@@ -28,10 +44,6 @@ vector
 boost/filesystem.hpp
 -
 QApplication
--
-QPushButton
--
-QTableWidget
 -
 MainWindow.h
 /home/cephalgia/CLionProjects/UntaggedMP3Detector/MainWindow.h
@@ -5616,6 +5628,16 @@ QtCore/qset.h
 QtCore/qcontiguouscache.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
+QtCore/qstring.h
+-
+QtCore/qfileinfo.h
+-
+QtCore/qstringlist.h
+-
+QtCore/qshareddata.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
 QtCore/qobject.h
 -
@@ -5634,6 +5656,16 @@ stdio.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
+QtCore/qfile.h
+-
+QtCore/qlist.h
+-
+QtCore/qshareddata.h
+-
+QtCore/qmetatype.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
@@ -6424,6 +6456,10 @@ QtCore/qglobal.h
 qapplication.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
+qfiledialog.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
 qheaderview.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
@@ -6496,6 +6532,20 @@ QtGui/qguiapplication.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
+QtCore/qdir.h
+-
+QtCore/qstring.h
+-
+QtCore/qurl.h
+-
+QtWidgets/qdialog.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h

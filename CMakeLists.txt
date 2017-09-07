@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES main.cpp MainWindow.h MainWindow.cpp)
 
 set(BOOST_ROOT /home/cephalgia/Tools/boost_1_65_0)
+set(CMAKE_AUTOMOC ON)
 
 find_package(Boost 1.65.0 COMPONENTS system filesystem REQUIRED)
 
