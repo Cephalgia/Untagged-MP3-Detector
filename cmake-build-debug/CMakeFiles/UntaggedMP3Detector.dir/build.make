@@ -105,9 +105,33 @@ CMakeFiles/UntaggedMP3Detector.dir/MainWindow.cpp.o.provides: CMakeFiles/Untagge
 CMakeFiles/UntaggedMP3Detector.dir/MainWindow.cpp.o.provides.build: CMakeFiles/UntaggedMP3Detector.dir/MainWindow.cpp.o
 
 
+CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o: CMakeFiles/UntaggedMP3Detector.dir/flags.make
+CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o: ../tag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o -c /home/cephalgia/CLionProjects/UntaggedMP3Detector/tag.cpp
+
+CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cephalgia/CLionProjects/UntaggedMP3Detector/tag.cpp > CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.i
+
+CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cephalgia/CLionProjects/UntaggedMP3Detector/tag.cpp -o CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.s
+
+CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o.requires:
+
+.PHONY : CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o.requires
+
+CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o.provides: CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o.requires
+	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o.provides.build
+.PHONY : CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o.provides
+
+CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o.provides.build: CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o
+
+
 CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.o: CMakeFiles/UntaggedMP3Detector.dir/flags.make
 CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.o: UntaggedMP3Detector_autogen/moc_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.o -c /home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/UntaggedMP3Detector_autogen/moc_compilation.cpp
 
 CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.i: cmake_force
@@ -133,6 +157,7 @@ CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.c
 UntaggedMP3Detector_OBJECTS = \
 "CMakeFiles/UntaggedMP3Detector.dir/main.cpp.o" \
 "CMakeFiles/UntaggedMP3Detector.dir/MainWindow.cpp.o" \
+"CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o" \
 "CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.o"
 
 # External object files for target UntaggedMP3Detector
@@ -140,6 +165,7 @@ UntaggedMP3Detector_EXTERNAL_OBJECTS =
 
 UntaggedMP3Detector: CMakeFiles/UntaggedMP3Detector.dir/main.cpp.o
 UntaggedMP3Detector: CMakeFiles/UntaggedMP3Detector.dir/MainWindow.cpp.o
+UntaggedMP3Detector: CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o
 UntaggedMP3Detector: CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.o
 UntaggedMP3Detector: CMakeFiles/UntaggedMP3Detector.dir/build.make
 UntaggedMP3Detector: /home/cephalgia/Tools/boost_1_65_0/stage/lib/libboost_system.so
@@ -148,7 +174,7 @@ UntaggedMP3Detector: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.5.1
 UntaggedMP3Detector: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.5.1
 UntaggedMP3Detector: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1
 UntaggedMP3Detector: CMakeFiles/UntaggedMP3Detector.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable UntaggedMP3Detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable UntaggedMP3Detector"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UntaggedMP3Detector.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +184,7 @@ CMakeFiles/UntaggedMP3Detector.dir/build: UntaggedMP3Detector
 
 CMakeFiles/UntaggedMP3Detector.dir/requires: CMakeFiles/UntaggedMP3Detector.dir/main.cpp.o.requires
 CMakeFiles/UntaggedMP3Detector.dir/requires: CMakeFiles/UntaggedMP3Detector.dir/MainWindow.cpp.o.requires
+CMakeFiles/UntaggedMP3Detector.dir/requires: CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o.requires
 CMakeFiles/UntaggedMP3Detector.dir/requires: CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.o.requires
 
 .PHONY : CMakeFiles/UntaggedMP3Detector.dir/requires

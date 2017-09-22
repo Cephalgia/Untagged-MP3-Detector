@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cephalgia/CLionProjects/UntaggedMP3Detector/MainWindow.cpp" "/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles/UntaggedMP3Detector.dir/MainWindow.cpp.o"
   "/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/UntaggedMP3Detector_autogen/moc_compilation.cpp" "/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles/UntaggedMP3Detector.dir/UntaggedMP3Detector_autogen/moc_compilation.cpp.o"
   "/home/cephalgia/CLionProjects/UntaggedMP3Detector/main.cpp" "/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles/UntaggedMP3Detector.dir/main.cpp.o"
+  "/home/cephalgia/CLionProjects/UntaggedMP3Detector/tag.cpp" "/home/cephalgia/CLionProjects/UntaggedMP3Detector/cmake-build-debug/CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

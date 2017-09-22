@@ -3,7 +3,7 @@ project(UntaggedMP3Detector)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp MainWindow.h MainWindow.cpp)
+set(SOURCE_FILES main.cpp MainWindow.h MainWindow.cpp tag.h tag.cpp)
 
 set(BOOST_ROOT /home/cephalgia/Tools/boost_1_65_0)
 set(CMAKE_AUTOMOC ON)

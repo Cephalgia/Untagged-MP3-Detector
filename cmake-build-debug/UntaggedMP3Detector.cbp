@@ -126,6 +126,12 @@
 		<Unit filename="/home/cephalgia/CLionProjects/UntaggedMP3Detector/main.cpp">
 			<Option target="UntaggedMP3Detector"/>
 		</Unit>
+		<Unit filename="/home/cephalgia/CLionProjects/UntaggedMP3Detector/tag.cpp">
+			<Option target="UntaggedMP3Detector"/>
+		</Unit>
+		<Unit filename="/home/cephalgia/CLionProjects/UntaggedMP3Detector/tag.h">
+			<Option target="UntaggedMP3Detector"/>
+		</Unit>
 		<Unit filename="/home/cephalgia/CLionProjects/UntaggedMP3Detector/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

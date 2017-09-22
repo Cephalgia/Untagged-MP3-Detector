@@ -1,5 +1,5 @@
-set(AM_SOURCES "/home/cephalgia/CLionProjects/UntaggedMP3Detector/main.cpp;/home/cephalgia/CLionProjects/UntaggedMP3Detector/MainWindow.cpp")
-set(AM_HEADERS "/home/cephalgia/CLionProjects/UntaggedMP3Detector/MainWindow.h")
+set(AM_SOURCES "/home/cephalgia/CLionProjects/UntaggedMP3Detector/main.cpp;/home/cephalgia/CLionProjects/UntaggedMP3Detector/MainWindow.cpp;/home/cephalgia/CLionProjects/UntaggedMP3Detector/tag.cpp")
+set(AM_HEADERS "/home/cephalgia/CLionProjects/UntaggedMP3Detector/MainWindow.h;/home/cephalgia/CLionProjects/UntaggedMP3Detector/tag.h")
 set(AM_SKIP_MOC "")
 set(AM_SKIP_UIC )
 set(AM_MOC_COMPILE_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB")

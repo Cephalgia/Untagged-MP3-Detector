@@ -217,6 +217,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tag.o: tag.cpp.o
+
+.PHONY : tag.o
+
+# target to build an object file
+tag.cpp.o:
+	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.o
+.PHONY : tag.cpp.o
+
+tag.i: tag.cpp.i
+
+.PHONY : tag.i
+
+# target to preprocess a source file
+tag.cpp.i:
+	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.i
+.PHONY : tag.cpp.i
+
+tag.s: tag.cpp.s
+
+.PHONY : tag.s
+
+# target to generate assembly for a file
+tag.cpp.s:
+	$(MAKE) -f CMakeFiles/UntaggedMP3Detector.dir/build.make CMakeFiles/UntaggedMP3Detector.dir/tag.cpp.s
+.PHONY : tag.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -236,6 +263,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tag.o"
+	@echo "... tag.i"
+	@echo "... tag.s"
 .PHONY : help
 
 
